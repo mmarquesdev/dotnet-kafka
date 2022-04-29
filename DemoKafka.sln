@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB781975-F2B8-4AB2-AA76-482B7584015F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "consumer", "consumer", "{E0E1B778-8BFF-46D9-A333-789F8D5EDB6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "producer", "producer", "{2A1AACB9-F7F6-4F50-991A-7EF2BB80456D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoKafka.Producer.Api", "src\producer\DemoKafka.Producer.Api\DemoKafka.Producer.Api.csproj", "{DA141E91-E5A0-428B-AD80-B9555ED20CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKafka.Consumer.Handler", "src\consumer\DemoKafka.Consumer.Handler\DemoKafka.Consumer.Handler.csproj", "{265C95C5-5F1B-4888-8BB8-7381A5A99A9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA141E91-E5A0-428B-AD80-B9555ED20CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA141E91-E5A0-428B-AD80-B9555ED20CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA141E91-E5A0-428B-AD80-B9555ED20CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA141E91-E5A0-428B-AD80-B9555ED20CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265C95C5-5F1B-4888-8BB8-7381A5A99A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265C95C5-5F1B-4888-8BB8-7381A5A99A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265C95C5-5F1B-4888-8BB8-7381A5A99A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265C95C5-5F1B-4888-8BB8-7381A5A99A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0E1B778-8BFF-46D9-A333-789F8D5EDB6E} = {CB781975-F2B8-4AB2-AA76-482B7584015F}
+		{2A1AACB9-F7F6-4F50-991A-7EF2BB80456D} = {CB781975-F2B8-4AB2-AA76-482B7584015F}
+		{DA141E91-E5A0-428B-AD80-B9555ED20CCC} = {2A1AACB9-F7F6-4F50-991A-7EF2BB80456D}
+		{265C95C5-5F1B-4888-8BB8-7381A5A99A9E} = {E0E1B778-8BFF-46D9-A333-789F8D5EDB6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3A58794-75F6-4A0C-A652-E130CC153D8E}
+	EndGlobalSection
+EndGlobal
